@@ -44,6 +44,14 @@ export default {
 					DEFAULT: 'hsl(var(--accent))',
 					foreground: 'hsl(var(--accent-foreground))'
 				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -52,6 +60,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				cyber: {
+					blue: 'hsl(var(--cyber-blue))',
+					cyan: 'hsl(var(--cyber-cyan))',
+					teal: 'hsl(var(--cyber-teal))'
+				},
+				neural: {
+					purple: 'hsl(var(--neural-purple))'
+				},
+				quantum: {
+					green: 'hsl(var(--quantum-green))'
+				},
+				plasma: {
+					orange: 'hsl(var(--plasma-orange))'
+				},
+				'glass-bg': 'var(--glass-bg)',
+				'glass-border': 'var(--glass-border)',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
