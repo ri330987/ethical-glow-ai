@@ -10,7 +10,7 @@ import oilrigHero from "@/assets/oilrig.jpg";
 import digitalTwin from "@/assets/oilrig3dTwin.png";
 import inspectionRobot from "@/assets/inspectionRobots.png";
 import bg from "@/assets/bg.jpeg";
-import OnshoreVisual from "./OnshoreVisuals";
+import OnshoreVisual from "./OnShoreVisuals";
 
 const Index = () => {
 	const [selectedSensor, setSelectedSensor] = useState<SensorPoint | null>(null);
